@@ -1,0 +1,162 @@
+
+body {
+    background: #f0f4f8;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #42A5F5;
+}
+
+a:hover {
+    color: #1E88E5;
+}
+
+
+nav {
+    background: #FFFFFF; 
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+nav a {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+.main-container {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+
+.home {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #E3F2FD, #BBDEFB);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    color: #1E88E5;
+}
+
+.home p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.citas {
+    padding: 20px;
+}
+
+.citas h1 {
+    font-size: 2rem;
+    color: #1E88E5;
+    margin-bottom: 20px;
+}
+
+.citas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.citas li {
+    background: #FFFFFF;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.citas li:hover {
+    transform: scale(1.02); 
+}
+
+.citas a {
+    font-size: 1.1rem;
+    color: #42A5F5;
+}
+
+.cita-detalle {
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cita-detalle h2 {
+    font-size: 2rem;
+    color: #1E88E5;
+    margin-bottom: 20px;
+}
+
+.cita-detalle p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #555;
+}
+
+.cita-detalle strong {
+    color: #333;
+}
+
+.not-found {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.not-found h1 {
+    font-size: 2.5rem;
+    color: #D32F2F; 
+}
+
+.not-found p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+
+    .home h1 {
+        font-size: 2rem;
+    }
+
+    .home p {
+        font-size: 1rem;
+    }
+
+    .citas h1 {
+        font-size: 1.8rem;
+    }
+
+    .cita-detalle h2 {
+        font-size: 1.8rem;
+    }
+
+    .not-found h1 {
+        font-size: 2rem;
+    }
+}
